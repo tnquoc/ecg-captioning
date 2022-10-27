@@ -1,0 +1,10 @@
+torch
+torchvision
+pytorch_lightning
+nltk
+numba
+numpy
+pandas
+scikit_learn
+scipy
+tqdm

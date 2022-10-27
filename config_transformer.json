@@ -1,0 +1,22 @@
+{
+    "in_length": 5000,
+    "in_channels": 1,
+    "n_grps": 4,
+    "num_classes": 70,
+    "N": 4,
+    "dropout": 0.3,
+    "first_width": 32,
+    "stride": [2,1,2,1],
+    "num_layers": 4,
+    "d_mode": 128,
+    "nhead": 8,
+    "dilation": 100,
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "epochs": 10,
+    "train_labels_csv": "/home/ai_dev_01/Dataset/china_ecg/china_train.csv",
+    "test_labels_csv": "/home/ai_dev_01/Dataset/china_ecg/china_val.csv",
+    "val_labels_csv": "/home/ai_dev_01/Dataset/china_ecg/china_val.csv",
+    "data_dir": "/home/ai_dev_01/Dataset/china_ecg/TrainingSet1",
+    "pre_train": "False"
+}
